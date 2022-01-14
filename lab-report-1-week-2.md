@@ -25,6 +25,11 @@
 * If this is the first time connecting to the server, you will get a message asking if you are sure you want to continue. Type `yes` and press enter.
 3. Trying Some Commands
 * Try inputting the commands `cd`, `ls`, `pwd`, `mkrid`, and `cp` to see what they do on your computer and the remote computer.
+
+![Image](Screenshot9.png)
+
+![Image](Screenshot10.png)
+
 * Some useful commands include `ls` which lists files and folders, `cd` which changes the current directory, and `cp` which can copy files and folders.
 * To log out of the remote server, you can input `exit` into the terminal.
 4. Moving Files with `scp`
@@ -56,4 +61,11 @@ There are many useful tricks you can use to make running on a remote server more
 
 * Using the up-arrow on the keyboard can recall previous commands made in the terminal
 * Using quotes at the end of an `ssh` command can run the command on the remote server then log out without you having to log in first.
+
+![Image](Screenshot11.png)
+
 * Using semicolons can allow you to run multiple commands on the same line without having to input them one at a time.
+
+![Image](Screenshot12.png)
+
+That's it, now you know how to access your course-specific account on `ieng6`
