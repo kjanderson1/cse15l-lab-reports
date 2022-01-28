@@ -11,7 +11,7 @@
 ![Image](LR2-1.png)
 
 ### Relationship between the bug, the symptom, and the failure-inducing input: 
-The original version of `MarkdownParse.java` included a bug that could cause an infinite loop if there was a pair of parenthesis in a link. The failure-inducing input had `()` in the middle of the brackets to induce the bug. As a result, the symptom was an infinite loop that had to be interrupted at the command line by the "control+c" shortcut.
+The original version of `MarkdownParse.java` included a bug that could cause an infinite loop if there was a pair of parenthesis in a line. The failure-inducing input had `()` in the middle of the brackets before the link to induce the bug. As a result, the symptom was an infinite loop that had to be interrupted at the command line by the "control+c" shortcut.
 
 ---
 
@@ -26,7 +26,7 @@ The original version of `MarkdownParse.java` included a bug that could cause an 
 ![Image](LR2-3.png)
 
 ### Relationship between the bug, the symptom, and the failure-inducing input:
-The second version of `MarkdownParse.java` now had a bug where the link would start after the first occurence of `](`. The failure-inducing input included a link that had `](` in the text within the brackets to induce the bug. As a result, the symptom was that all the text after `](` was included in the output.
+The second version of `MarkdownParse.java` now had a bug where the link would start after the first occurence of `](`. The failure-inducing input included a link that had `](` in the text within the brackets before the link to induce the bug. As a result, the symptom was that all the text after `](` was included in the output.
 
 ---
 ## Code Change #3
