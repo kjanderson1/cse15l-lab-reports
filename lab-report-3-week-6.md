@@ -4,7 +4,7 @@
 
 ### **Step 1: Creating a `.ssh/config` file**
 
-* Enter in the command `~/.ssh/config` into the terminal. **If you get a message saying permission denied:** try using the command `vim ~/.ssh/config`.
+* Enter in the command `~/.ssh/config` into the terminal (in the examples below I will be using the terminal in VSCode). **If you get a message saying permission denied:** try using the command `vim ~/.ssh/config`.
 ![Image](LR3-1.png)
 * Press the `I` key to edit the contents of the `.ssh/config` file and insert the following into the file:
 ![Image](LR3-2.png)
