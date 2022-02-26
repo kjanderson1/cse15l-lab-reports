@@ -1,5 +1,9 @@
 # Week 8 Lab Report
 
+## Links to the Repositories:
+* [My markdown-parse repository](https://github.com/kjanderson1/markdown-parse.git)
+* [The repository I reviewed](https://github.com/AnniePhan02/CSE15L-Panther.git)
+
 ## Snippet 1:
 * What the test *should* produce:
 ![Image](LR4-1.png)
