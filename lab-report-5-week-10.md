@@ -20,7 +20,7 @@ Step 2: Put the output into a `results.txt` file using output redirection.
 
 ![Image](LR5-3.png)
 
-Step 3: Use a program called `diff  ` to see the differences between the `results.txt` files.
+Step 3: Use a program called `diff` to see the differences between the `results.txt` files.
 * Some of the differences found by `diff`:
 
 ![Image](LR5-4.png)
@@ -37,7 +37,7 @@ Step 4: Look for the test files that showed different outputs in `diff` by looki
 ![Image](LR5-7.png)
 
 ### Two differences that correspond to different bugs:
-Test 1: Test file 577.md
+### Test 1: Test file 577.md
 * Difference in `diff` (provided output at the top and my output at the bottom):
 
 ![Image](LR5-9.png)
@@ -57,7 +57,7 @@ Code that should be fixed:
 
 ![Image](LR5-12.png)
 
-Test 2: Test file 496.md
+### Test 2: Test file 496.md
 * Difference in `diff` (provided output at the top and my output at the bottom):
 
 ![Image](LR5-13.png)
